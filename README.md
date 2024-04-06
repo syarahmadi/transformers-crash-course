@@ -1,3 +1,5 @@
+[![CI for Transformer Tutorials](https://github.com/syarahmadi/transformers-crash-course/actions/workflows/ci.yml/badge.svg)](https://github.com/syarahmadi/transformers-crash-course/actions/workflows/ci.yml)
+
 # Transformer Tutorials
 
 Welcome to the Transformer Tutorials repository! This collection is dedicated to explaining the intricacies of transformer models in deep learning, from their foundational concepts to advanced applications and research topics. Designed for beginners and advanced practitioners alike, our tutorials aim to demystify transformers and highlight their potential across various domains.
