@@ -1,10 +1,22 @@
 # Transformer Tutorials
 
-A collection of tutorials and notebooks explaining transformer models in deep learning.
+Welcome to the Transformer Tutorials repository! This collection is dedicated to explaining the intricacies of transformer models in deep learning, from their foundational concepts to advanced applications and research topics. Designed for beginners and advanced practitioners alike, our tutorials aim to demystify transformers and highlight their potential across various domains.
 
 <p align="center">
-  <img src="docs/_img/intropage.png"" width="500" style="display: block; margin-left: auto; margin-right: auto;"/>
+  <img src="docs/_img/intropage.png" width="500"/>
 </p>
+
+## 📚 Table of Contents
+
+- 🌱 [Basics and Introduction](#basics-and-introduction)
+- 🚀 [Intermediate Topics](#intermediate-topics)
+- 🔬 [Advanced Topics](#advanced-topics)
+- 🌐 [Specialized Applications and Exploration](#specialized-applications-and-exploration)
+- 🛠 [Setting Up the Local Environment](#setting-up-the-local-environment)
+- 🚀 [How to Use](#how-to-use)
+- 🤝 [Contributions](#contributions)
+- 📜 [License](#license)
+
 
 
 # Transformer Tutorials
