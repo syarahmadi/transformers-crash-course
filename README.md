@@ -14,7 +14,8 @@ A comprehensive collection of tutorials guiding you from the basics of transform
 ## 📚 Table of Contents
 
 ### 🌱 Basics and Introduction
-- [![Tensors](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instillai/TensorFlow-Course/blob/master/codes/ipython/1-basics/tensors.ipynb) [Introduction to Transformers](./notebooks/01_Introduction_to_Transformers.ipynb) 
+[![Tensors](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/instillai/TensorFlow-Course/blob/master/codes/ipython/1-basics/tensors.ipynb) [Introduction to Transformers](./notebooks/01_Introduction_to_Transformers.ipynb) 
+
 - [Understanding the Transformer Architecture](./notebooks/02_Understanding_the_Transformer_Architecture.ipynb)
 - [Working with HuggingFace's Transformers Library](./notebooks/03_Working_with_HuggingFaces_Transformers_Library.ipynb)
 - [Tokenization Deep Dive](./notebooks/04_Tokenization_Deep_Dive.ipynb)
