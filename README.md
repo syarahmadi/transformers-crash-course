@@ -1,6 +1,6 @@
 # Transformer Tutorials
 
-A collection of tutorials and notebooks explaining the basics of transformer models in deep learning.
+A collection of tutorials and notebooks explaining transformer models in deep learning.
 
 <p align="center">
   <img src="docs/_img/intropage.png"" width="500" style="display: block; margin-left: auto; margin-right: auto;"/>
