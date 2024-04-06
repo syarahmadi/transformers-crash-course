@@ -18,11 +18,6 @@ Welcome to the Transformer Tutorials repository! This collection is dedicated to
 - 📜 [License](#license)
 
 
-
-# Transformer Tutorials
-
-A comprehensive collection of tutorials guiding you from the basics of transformers to advanced applications and research topics.
-
 ## 📚 Table of Contents
 
 ### 🌱 Basics and Introduction
