@@ -47,29 +47,35 @@ Welcome to the Transformer Tutorials repository! This collection is dedicated to
 - [Transformers for Non-NLP Tasks](./notebooks/18_Transformers_for_Non_NLP_Tasks.ipynb)
 - [Attention Mechanisms Explored](./notebooks/19_Attention_Mechanisms_Explored.ipynb)
 - [Positional Encodings and Variants](./notebooks/20_Positional_Encodings_and_Variants.ipynb)
-- [Regularization Techniques for Transformers](./notebooks/21_Regularization_Techniques_for_Transformers.ipynb) [Under Development]
-- [Multi-modal Transformers](./notebooks/22_Multi-modal_Transformers.ipynb) [Under Development]
-- [Transformer Variants and Evolutions](./notebooks/23_Transformer_Variants_and_Evolutions.ipynb) [Under Development]
-- [Knowledge Distillation in Transformers](./notebooks/24_Knowledge_Distillation_in_Transformers.ipynb) [Under Development]
-- [Zero and Few-shot Learning with Transformers](./notebooks/25_Zero_and_Few-shot_Learning_with_Transformers.ipynb) [Under Development]
+
+
+<!-- 
+## 📚 Table of Contents
+
+### 🔬 Advanced Topics
+- [x] [Regularization Techniques for Transformers](./notebooks/21_Regularization_Techniques_for_Transformers.ipynb)
+- [ ] [Multi-modal Transformers](./notebooks/22_Multi-modal_Transformers.ipynb)
+- [ ] [Transformer Variants and Evolutions](./notebooks/23_Transformer_Variants_and_Evolutions.ipynb)
+- [ ] [Knowledge Distillation in Transformers](./notebooks/24_Knowledge_Distillation_in_Transformers.ipynb)
+- [ ] [Zero and Few-shot Learning with Transformers](./notebooks/25_Zero_and_Few-shot_Learning_with_Transformers.ipynb)
 
 ### 🌐 Specialized Applications and Exploration
-- [Transformers in Bioinformatics](./notebooks/26_Transformers_in_Bioinformatics.ipynb) [Under Development]
-- [Transformers in Finance](./notebooks/27_Transformers_in_Finance.ipynb) [Under Development]
-- [Attention Visualization](./notebooks/28_Attention_Visualization.ipynb) [Under Development]
-- [Bias, Ethics, and Fairness in Transformer Models](./notebooks/29_Bias_Ethics_and_Fairness_in_Transformer_Models.ipynb) [Under Development]
-- [Large Scale Training of Transformers](./notebooks/30_Large_Scale_Training_of_Transformers.ipynb) [Under Development]
-- [Reinforcement Learning with Transformers](./notebooks/31_Reinforcement_Learning_with_Transformers.ipynb) [Under Development]
-- [Transformers for Audio](./notebooks/32_Transformers_for_Audio.ipynb) [Under Development]
-- [Knowledge Graphs and Transformers](./notebooks/33_Knowledge_Graphs_and_Transformers.ipynb) [Under Development]
-- [Transformers in Healthcare](./notebooks/34_Transformers_in_Healthcare.ipynb) [Under Development]
-- [Multilingual and Cross-lingual Transformers](./notebooks/35_Multilingual_and_Cross-lingual_Transformers.ipynb) [Under Development]
-- [Adversarial Attacks on Transformers](./notebooks/36_Adversarial_Attacks_on_Transformers.ipynb) [Under Development]
-- [Real-time Applications of Transformers](./notebooks/37_Real-time_Applications_of_Transformers.ipynb) [Under Development]
-- [Transformers for the Web](./notebooks/38_Transformers_for_the_Web.ipynb) [Under Development]
-- [Generative Art with Transformers](./notebooks/39_Generative_Art_with_Transformers.ipynb) [Under Development]
-- [Future of Transformers](./notebooks/40_Future_of_Transformers.ipynb) [Under Development]
-
+- [ ] [Transformers in Bioinformatics](./notebooks/26_Transformers_in_Bioinformatics.ipynb)
+- [ ] [Transformers in Finance](./notebooks/27_Transformers_in_Finance.ipynb)
+- [ ] [Attention Visualization](./notebooks/28_Attention_Visualization.ipynb)
+- [ ] [Bias, Ethics, and Fairness in Transformer Models](./notebooks/29_Bias_Ethics_and_Fairness_in_Transformer_Models.ipynb)
+- [ ] [Large Scale Training of Transformers](./notebooks/30_Large_Scale_Training_of_Transformers.ipynb)
+- [ ] [Reinforcement Learning with Transformers](./notebooks/31_Reinforcement_Learning_with_Transformers.ipynb)
+- [ ] [Transformers for Audio](./notebooks/32_Transformers_for_Audio.ipynb)
+- [ ] [Knowledge Graphs and Transformers](./notebooks/33_Knowledge_Graphs_and_Transformers.ipynb)
+- [ ] [Transformers in Healthcare](./notebooks/34_Transformers_in_Healthcare.ipynb)
+- [ ] [Multilingual and Cross-lingual Transformers](./notebooks/35_Multilingual_and_Cross-lingual_Transformers.ipynb)
+- [ ] [Adversarial Attacks on Transformers](./notebooks/36_Adversarial_Attacks_on_Transformers.ipynb)
+- [ ] [Real-time Applications of Transformers](./notebooks/37_Real-time_Applications_of_Transformers.ipynb)
+- [ ] [Transformers for the Web](./notebooks/38_Transformers_for_the_Web.ipynb)
+- [ ] [Generative Art with Transformers](./notebooks/39_Generative_Art_with_Transformers.ipynb)
+- [ ] [Future of Transformers](./notebooks/40_Future_of_Transformers.ipynb)
+-->
 
 
 ## 🛠 Setting Up the Local Environment
