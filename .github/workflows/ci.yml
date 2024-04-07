@@ -9,6 +9,7 @@ on:
     branches: [ main ]
     paths:
       - 'notebooks/**/*.ipynb'
+  workflow_dispatch:
 
 jobs:
   build-and-test:
