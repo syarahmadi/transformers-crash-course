@@ -1,43 +1,45 @@
-name: Python Notebook CI
+name: Test Changed Notebooks
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - 'notebooks/**/*.ipynb'
   pull_request:
     branches: [ main ]
     paths:
-      - 'notebooks/**/*.ipynb'
-  workflow_dispatch:
+      - '**/*.ipynb'
 
 jobs:
-  build-and-test:
+  test-notebooks:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Ensures the entire git history is checked out
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
 
-    - name: Cache Python dependencies
-      uses: actions/cache@v2
-      with:
-        path: |
-          ~/.cache/pip
-          !~/.cache/pip/log
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install nbconvert ipykernel
+        # Add any additional dependencies here
+
+    - name: Find Added or Modified Notebooks
+      id: find-notebooks
+      run: |
+        echo "Added or Modified notebooks:"
+        git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} '**/*.ipynb' | tee changed_notebooks.txt
+        if [[ -s changed_notebooks.txt ]]; then
+          echo "::set-output name=has_changes::true"
+        else
+          echo "::set-output name=has_changes::false"
+        fi
 
     - name: Execute Notebooks
+      if: steps.find-notebooks.outputs.has_changes == 'true'
       run: |
-        find ./notebooks -name "*.ipynb" -exec jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 {} \;
+        while IFS= read -r notebook; do
+          jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 "$notebook"
+        done < changed_notebooks.txt
