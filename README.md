@@ -153,5 +153,15 @@ Navigate to the desired notebook and run it using Jupyter Notebook.
 ## 🤝 Contributions
 Feel free to submit pull requests or raise issues if you find any problems or have suggestions.
 
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="center">
+   <a href="https://github.com{/syarahmadi/transformers-crash-course/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=syarahmadi/Techtrends">
+   </a>
+</p>
+</details>
+
 ## 📜 License
 MIT License
