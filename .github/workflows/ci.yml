@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install nbconvert jupyter_client ipykernel
         # Add other dependencies here, for example:
-        # pip install -r requirements.txt
+        pip install -r requirements.txt
 
     - name: Execute Notebooks
       run: |
