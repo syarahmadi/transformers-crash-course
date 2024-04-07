@@ -4,3 +4,4 @@ numpy
 matplotlib
 jupyter
 seaborn
+sklearn
