@@ -3,3 +3,4 @@ transformers
 numpy
 matplotlib
 jupyter
+seaborn
