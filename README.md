@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f779f39f2fdd47d4a8e4737207ae7fdd)](https://app.codacy.com/gh/syarahmadi/transformers-crash-course/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f779f39f2fdd47d4a8e4737207ae7fdd)](https://app.codacy.com/gh/syarahmadi/transformers-crash-course/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Test Changed Notebooks](https://github.com/syarahmadi/transformers-crash-course/actions/workflows/ci.yml/badge.svg)](https://github.com/syarahmadi/transformers-crash-course/actions/workflows/ci.yml)
 
 
 
