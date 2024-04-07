@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Requirements Status](https://requires.io/github/syarahmadi/transformers-crash-course/requirements.svg?branch=main)](https://requires.io/github/syarahmadi/transformers-crash-course/requirements/?branch=main)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
