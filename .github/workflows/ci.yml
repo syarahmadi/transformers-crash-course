@@ -3,8 +3,12 @@ name: Python Notebook CI
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'notebooks/**/*.ipynb'
   pull_request:
     branches: [ main ]
+    paths:
+      - 'notebooks/**/*.ipynb'
 
 jobs:
   build-and-test:
@@ -33,19 +37,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Optional: Additional step for manually installing matplotlib, if necessary
-    # - name: Install Matplotlib
-    #   run: pip install matplotlib
-
     - name: Execute Notebooks
       run: |
         find ./notebooks -name "*.ipynb" -exec jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 {} \;
-
-    # Optional: Steps for linting, formatting, or other analyses
-    # - name: Lint with flake8
-    #   run: |
-    #     pip install flake8
-    #     # stop the build if there are Python syntax errors or undefined names
-    #     flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-    #     # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-    #     flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
