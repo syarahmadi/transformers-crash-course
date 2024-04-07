@@ -1,4 +1,4 @@
-[![CI for Transformer Tutorials](https://github.com/syarahmadi/transformers-crash-course/actions/workflows/ci.yml/badge.svg)](https://github.com/syarahmadi/transformers-crash-course/actions/workflows/ci.yml)
+
 
 # Transformer Tutorials
 
